@@ -1,0 +1,254 @@
+body {
+    background-color: hsl(0, 0%, 26%);
+}
+
+.list-item {
+    list-style: none;
+    display: inline-block;
+    background-color:red;
+    position: relative;
+    left: 930px;
+    color: rgb(231, 231, 231);
+}
+
+.list-item a {
+    text-decoration: none;
+    font-size: 23px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(231, 231, 231);
+    background-color: red;
+}
+
+.logo-item {
+    font-family: 'Dancing Script', cursive;
+    background-color:red;
+    color: rgb(231, 231, 231);
+}
+
+p {
+    text-align: center;
+    font-family: 'Afacad', sans-serif;
+    font-size: 20px;
+    color: rgb(231, 231, 231);
+}
+
+.ingredientes {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    bottom: 310px;
+    right: 10px;
+    color: rgb(231, 231, 231);
+}
+
+.princ{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 45px;
+    color: rgb(231, 231, 231);
+}
+
+textarea {
+    background-color: rgb(231, 231, 231);
+    border-color: black;
+    font-family: 'Afacad', sans-serif;
+    display: block;
+    position: relative;
+    left: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+}
+ .boton {
+    padding-inline: 50px;
+    position: relative;
+    left: 115px;
+    background-color: rgb(231, 231, 231);
+    font-family: 'Afacad', sans-serif;
+    border-radius: 10px;
+ }
+ 
+ .password{
+    background-color: rgb(231, 231, 231);
+    display: inline;
+    border-radius: 10px;
+ }
+
+ .text{
+    background-color: rgb(231, 231, 231);
+    display: inline;
+    border-radius: 10px;
+ }
+ 
+.other-text {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(231, 231, 231);
+    background-color:rgb(121, 2, 2); ;
+}
+
+header {
+    background-color: red;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+
+.caracteristicas {
+    display: inline-block;
+    position: absolute;
+    bottom: 350px;
+    left: 625px;
+    color: rgb(231, 231, 231);
+}
+
+.card_eat {
+    width: 300px;
+    border: 2px solid red;
+    padding: 10px;
+    background-color: rgb(121, 2, 2);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.card_eat img {
+    width: 100%;
+}
+.card_eat h3{
+    color: rgb(231, 231, 231);
+    text-align: center;
+    font-size: 25px;
+}
+
+.card_eat ul {
+    color: rgb(231, 231, 231);
+}
+
+.card_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main ul{
+ color:rgb(231, 231, 231);
+ font-size: 25px;
+}
+
+main ol{
+color:  rgb(231, 231, 231);
+font-size: 25px;
+}
+
+footer{
+    color: rgb(231, 231, 231) ;
+    background-color:red ;
+}
+
+footer a img {
+    background-color: red;
+    width: 30px;
+    display: inline-block;
+}
+
+.icons {
+    width: 1000px;
+    left: 160px;
+    position: relative;
+}
+
+
+@media (min-width: 425px) and (max-width: 480px){
+
+    .princ{
+        display: inline-block;
+        position: relative;
+        left: 55px;
+        font-size: 20px;
+
+    }
+    
+    .list-item {
+        list-style: none;
+        display: inline-block;
+        background-color:red;
+        position: relative;
+        left: 110px;
+        color: rgb(231, 231, 231);
+    }
+    
+    .list-item a {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: 'Nunito', sans-serif;
+        color: rgb(231, 231, 231);
+        background-color: red;
+    }
+    .logo-item {
+        font-family: 'Dancing Script', cursive;
+        background-color:red;
+        color: rgb(231, 231, 231);
+    }
+
+    .other-text{
+        position: relative;
+        font-size: 25px;
+        width: 96%;
+        
+    }
+
+    main img{
+        width: 400px;
+        position: relative;
+        left: 10px;
+    }
+
+    main p{
+        position: relative;
+        left: 10px;
+        font-size: 25px;
+    }
+   
+    header{
+        width: 101%
+    }
+    
+    footer{
+        width: 101%;
+    }
+
+    .card_eat{
+        padding: 5px;
+        margin: 5px;
+        border-radius: 10px;
+        padding-right: 100px;
+    }
+
+    .card_container{
+        flex-direction:column;
+    }
+    .card_eat ul {
+      display: block;
+      position: relative;
+      font-size: 15px;
+      left: 168px;
+      bottom: 120px;
+    }
+
+    .card_eat img {
+        display: block;
+       width: 170px;
+    }
+    .card_eat h3{
+        position: relative;
+        left: 60px;
+        color: rgb(231, 231, 231);
+        text-align: center;
+        font-size: 12px;
+    }
+}
