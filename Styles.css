@@ -75,6 +75,11 @@ textarea {
     border-radius: 10px;
  }
 
+ label{
+    color:rgb(231, 231, 231); 
+    font-family: 'Nunito', sans-serif;
+ }
+
  .text{
     background-color: rgb(231, 231, 231);
     display: inline;
